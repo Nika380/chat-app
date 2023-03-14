@@ -32,7 +32,9 @@ const Login = () => {
   return (
     <div className='formContainer'>
     <div className='formWrapper'>
-      <p className='logo'>Nika's Chat App</p>
+      <p className='logo'>
+        Nika's Chat App
+        </p>
       <p className='title'>Login</p>
         <form onSubmit={handleSubmit}>
           <TextField variant='outlined' label="email" type="email" onChange={(e) => setEmail(e.target.value)}/>
